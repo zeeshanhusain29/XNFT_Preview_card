@@ -149,6 +149,24 @@ body {
 }
 
 .attribution {
+  margin-top: 2rem;
+  text-align: center;
+  color: var(--color-soft-blue);
+  font-size: 0.85rem;
+}
+
+.attribution a {
+  color: var(--color-cyan);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.attribution a:hover {
+  color: var(--color-white);
+  text-decoration: underline;
+}
+
+.attribution {
   font-size: 11px;
   text-align: center;
   color: var(--color-soft-blue);
