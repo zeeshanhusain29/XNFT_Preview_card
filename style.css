@@ -65,9 +65,12 @@ body {
 }
 
 .card__title {
+  margin-bottom: 1rem;
+}
+
+.card__title h1 {
   font-size: 1.4rem;
   font-weight: 600;
-  margin-bottom: 1rem;
 }
 
 .card__title a {
